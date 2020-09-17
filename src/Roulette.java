@@ -49,9 +49,9 @@ public class Roulette {
                     if (diceNumber == 1) {
                         System.out.println("You are lucky");
                         chips = chips + chipsOutput * 2;
-                        System.out.println("Current Chips: " + chips);
+                        System.out.println("Your guess was right you choose red your current Chips: " + chips);
                     } else {
-                        System.out.println("Current Chips: " + chips);
+                        System.out.println("It was black current Chips: " + chips);
                     }
                 }
 
@@ -63,9 +63,9 @@ public class Roulette {
                     if (diceNumber == 2) {
                         System.out.println("You are lucky");
                         chips = chips + chipsOutput * 2;
-                        System.out.println("Current Chips: " + chips);
+                        System.out.println("Your guess was right you choose black your current Chips: " + chips);
                     } else {
-                        System.out.println("Current Chips: " + chips);
+                        System.out.println("It was red current Chips: " + chips);
                     }
                 }
 
